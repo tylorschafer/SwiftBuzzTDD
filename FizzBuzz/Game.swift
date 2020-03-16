@@ -4,4 +4,8 @@ class Game {
     init() {
         score = 0
     }
+    
+    func play() {
+        score += 1
+    }
 }
