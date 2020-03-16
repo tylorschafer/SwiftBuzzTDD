@@ -12,6 +12,7 @@ import XCTest
 class GameTests: XCTestCase {
     
     let game = Game()
+    let brain = Brain()
 
     override func setUp() {
     }
@@ -38,5 +39,11 @@ class GameTests: XCTestCase {
         game.score = 2
         let result = game.play(move: "Fizz")
         XCTAssertEqual(result, true)
+    }
+    
+    func testIfMoveIsWrong() {
+        game.score = 1
+        let result = game.play(move: "Fizz")
+        XCTAssertEqual(result, false)
     }
 }
