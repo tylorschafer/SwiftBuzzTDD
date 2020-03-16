@@ -1,12 +1,5 @@
-//
-//  BrainTests.swift
-//  FizzBuzzTests
-//
-//  Created by Tylor Schafer on 3/15/20.
-//  Copyright © 2020 Tylor Schafer. All rights reserved.
-//
-
 import XCTest
+@testable import FizzBuzz
 
 class BrainTests: XCTestCase {
 
