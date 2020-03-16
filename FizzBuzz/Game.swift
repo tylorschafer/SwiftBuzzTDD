@@ -1,5 +1,6 @@
 class Game {
     var score: Int
+    let brain = Brain()
     
     init() {
         score = 0
@@ -7,6 +8,13 @@ class Game {
     
     func play(move: String) -> Bool {
         score += 1
-        return true
+        
+        let result = brain.check(number: score)
+        
+        if result == move {
+            return true
+        } else {
+            return false
+        }
     }
 }

@@ -12,7 +12,6 @@ import XCTest
 class GameTests: XCTestCase {
     
     let game = Game()
-    let brain = Brain()
 
     override func setUp() {
     }
