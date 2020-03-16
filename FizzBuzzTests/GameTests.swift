@@ -7,8 +7,11 @@
 //
 
 import XCTest
+@testable import FizzBuzz
 
 class GameTests: XCTestCase {
+    
+    let game = Game()
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
