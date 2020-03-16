@@ -30,7 +30,7 @@ class GameTests: XCTestCase {
     
     func testOnPlayTwiceScoreIncremented() {
         _ = game.play(move: "1")
-        _ = game.play(move: "1")
+        _ = game.play(move: "2")
         XCTAssertTrue(game.score == 2)
     }
     

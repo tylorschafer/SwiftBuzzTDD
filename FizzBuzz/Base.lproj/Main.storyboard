@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pZA-7a-leI">
+                                <rect key="frame" x="260" y="615" width="99" height="40"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
+                                <state key="normal" title="Play Again">
+                                    <color key="titleColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3 / 5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RDP-WX-Weg">
+                                <rect key="frame" x="315" y="14" width="44" height="28"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
+                                <color key="textColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jep-uU-nG0" userLabel="GameView">
+                                <rect key="frame" x="40" y="186.5" width="295" height="294"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" placeholderIntrinsicWidth="141.5" placeholderIntrinsicHeight="141" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Zq-ia-v5s" userLabel="Number">
+                                        <rect key="frame" x="153" y="0.0" width="142" height="141"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="8Zq-ia-v5s" secondAttribute="height" multiplier="1:1" id="Fgk-OP-bCW"/>
+                                            <constraint firstAttribute="width" secondItem="8Zq-ia-v5s" secondAttribute="height" multiplier="1:1" id="Oi3-zt-Ewi"/>
+                                        </constraints>
+                                        <state key="normal" image="champagne" backgroundImage="button_border">
+                                            <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" placeholderIntrinsicWidth="141.5" placeholderIntrinsicHeight="141" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ige-y6-bBs">
+                                        <rect key="frame" x="153" y="153" width="141.5" height="141"/>
+                                        <state key="normal" image="space" backgroundImage="button_border">
+                                            <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" placeholderIntrinsicWidth="141.5" placeholderIntrinsicHeight="141" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D55-yG-Qml">
+                                        <rect key="frame" x="0.0" y="153" width="141.5" height="141"/>
+                                        <state key="normal" image="lightning" backgroundImage="button_border">
+                                            <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nqT-TL-XHI">
+                                        <rect key="frame" x="0.0" y="0.0" width="141.5" height="141"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="70"/>
+                                        <state key="normal" title="0" backgroundImage="button_border">
+                                            <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.72156862749999995" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="8Zq-ia-v5s" firstAttribute="height" secondItem="jep-uU-nG0" secondAttribute="height" multiplier="0.48" id="B7Z-DO-z5l"/>
+                                    <constraint firstItem="8Zq-ia-v5s" firstAttribute="top" secondItem="jep-uU-nG0" secondAttribute="top" id="K08-wB-IrY"/>
+                                    <constraint firstAttribute="width" secondItem="jep-uU-nG0" secondAttribute="height" multiplier="1:1" constant="1" id="TYW-uL-vg6"/>
+                                    <constraint firstAttribute="trailing" secondItem="8Zq-ia-v5s" secondAttribute="trailing" constant="0.5" id="k03-Do-o7k"/>
+                                    <constraint firstItem="8Zq-ia-v5s" firstAttribute="width" secondItem="jep-uU-nG0" secondAttribute="width" multiplier="0.48" id="tOv-9Y-Edt"/>
+                                    <constraint firstItem="8Zq-ia-v5s" firstAttribute="leading" secondItem="jep-uU-nG0" secondAttribute="leading" id="vtP-Aq-h5G"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.72156862745098038" blue="0.66274509803921566" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="jep-uU-nG0" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="AhW-9A-ck0"/>
+                            <constraint firstItem="D55-yG-Qml" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="D2m-4l-e1O"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ige-y6-bBs" secondAttribute="trailing" constant="40.5" id="E1A-y2-y6W"/>
+                            <constraint firstItem="jep-uU-nG0" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Lj1-fQ-DW3"/>
+                            <constraint firstItem="RDP-WX-Weg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="14" id="N6j-CQ-0Sk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RDP-WX-Weg" secondAttribute="trailing" constant="16" id="RjJ-Eb-pi5"/>
+                            <constraint firstItem="jep-uU-nG0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="dvV-La-TQh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pZA-7a-leI" secondAttribute="trailing" constant="16" id="fmY-T3-8CU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pZA-7a-leI" secondAttribute="bottom" constant="12" id="yIn-ju-tRg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="button_border" width="400" height="400"/>
+        <image name="champagne" width="49" height="50"/>
+        <image name="lightning" width="29" height="50"/>
+        <image name="space" width="47" height="50"/>
+    </resources>
+</document>

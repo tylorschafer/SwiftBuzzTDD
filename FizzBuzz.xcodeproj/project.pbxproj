@@ -17,7 +17,7 @@
 		B990E8A8241C217900A5E6C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B990E8A7241C217900A5E6C0 /* ContentView.swift */; };
 		B990E8AA241C217C00A5E6C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B990E8A9241C217C00A5E6C0 /* Assets.xcassets */; };
 		B990E8AD241C217C00A5E6C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B990E8AC241C217C00A5E6C0 /* Preview Assets.xcassets */; };
-		B990E8B0241C217C00A5E6C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B990E8AE241C217C00A5E6C0 /* LaunchScreen.storyboard */; };
+		B990E8B0241C217C00A5E6C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B990E8AE241C217C00A5E6C0 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +49,7 @@
 		B990E8A7241C217900A5E6C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B990E8A9241C217C00A5E6C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B990E8AC241C217C00A5E6C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B990E8AF241C217C00A5E6C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B990E8AF241C217C00A5E6C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B990E8B1241C217C00A5E6C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B990E8B6241C217D00A5E6C0 /* FizzBuzzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizzBuzzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B990E8BC241C217D00A5E6C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -111,7 +111,7 @@
 				B990E8A5241C217900A5E6C0 /* SceneDelegate.swift */,
 				B990E8A7241C217900A5E6C0 /* ContentView.swift */,
 				B990E8A9241C217C00A5E6C0 /* Assets.xcassets */,
-				B990E8AE241C217C00A5E6C0 /* LaunchScreen.storyboard */,
+				B990E8AE241C217C00A5E6C0 /* Main.storyboard */,
 				B990E8B1241C217C00A5E6C0 /* Info.plist */,
 				B990E8AB241C217C00A5E6C0 /* Preview Content */,
 			);
@@ -250,7 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B990E8B0241C217C00A5E6C0 /* LaunchScreen.storyboard in Resources */,
+				B990E8B0241C217C00A5E6C0 /* Main.storyboard in Resources */,
 				B990E8AD241C217C00A5E6C0 /* Preview Assets.xcassets in Resources */,
 				B990E8AA241C217C00A5E6C0 /* Assets.xcassets in Resources */,
 			);
@@ -318,12 +318,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B990E8AE241C217C00A5E6C0 /* LaunchScreen.storyboard */ = {
+		B990E8AE241C217C00A5E6C0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B990E8AF241C217C00A5E6C0 /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
