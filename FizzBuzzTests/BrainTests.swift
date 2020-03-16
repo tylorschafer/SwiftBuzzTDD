@@ -38,6 +38,6 @@ class BrainTests: XCTestCase {
     
     func testIsNotDivisibleBy15() {
         let result = brain.isDivisibleByFifteen(number: 12)
-        XCTAssertEqual(result, flase)
+        XCTAssertEqual(result, false)
     }
  }
